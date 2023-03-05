@@ -1,0 +1,592 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: Malayalam;
+    src: url(../fonts/Malayalam\ MN.ttc);
+}
+@font-face {
+    font-family: FiraGo;
+    src: url(../fonts/FiraGO-Medium.ttf);
+}
+
+
+/*here is style of MAIN PAGE*/
+/* აღნიშნულ ნაწილში გაწერილია ჰედერ მენიუს სტილები */
+.headerpart {
+    width: 100%;
+    height: 124px;
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.maintitle {
+    display: flex;
+    width: 10%;
+}
+.go a{
+    width: inherit;
+    height: 40px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+.green a{
+width: inherit;
+height: 40px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 41px;
+color: #36794F
+}
+.maintitle{
+    margin-right: 355px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+    margin-right: 111px;
+}
+.menu a {
+width: inherit;
+height: 22px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+}
+.vectors {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/* აღნიშნულ ნაწილში არის - ფუტერის სტილი გაწერილი */
+    
+/*კონკრეტულად ამ ნაწილში არის ფუტერის მარცხენა
+    ნაწილი */
+    
+.footermenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 435px;
+    background-color: #255338;
+}
+.abovefooterdiv {
+    display: flex;
+    flex-direction: row;
+}
+.leftdiv {
+    margin-top: 36px;
+    margin-left: 71px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+}
+.fmaintitle {
+    display: flex;
+    text-align: center;
+}
+.fgo a {
+font-family: Helvetica Neue;
+font-size: 30px;
+font-weight: 300;
+line-height: 100%;
+letter-spacing: 0em;
+text-align: center;
+color: 
+#FBFBFB;
+}
+.fgreen a{
+font-family: Manrope;
+font-size: 30px;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.leftdiv ul{
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+    width: 35%;
+    cursor: pointer;
+}
+.leftdiv p{
+margin-top: 86px;
+width: 535px;
+height: 22px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.leftdiv input {
+position: absolute;
+width: 307px;
+height: 50px;
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+background-color: inherit;
+}
+.leftdiv input::placeholder {
+    color: #FBFBFB;
+}
+.leftdiv form {
+    width: auto;
+    margin-top: 21px;
+    position: relative;
+}
+.leftdiv form img {
+    position: absolute;
+    left: 280px;
+    top: 17.5px;
+}
+/*ფუტერის ქვედა ნაწილი*/
+
+.belowfooterdiv {
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 30px;
+}
+.belowfooterdiv ul{
+    width: 23%;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1100px;
+    cursor: pointer;
+}
+.belowfooterdiv li {
+width: 113px;
+height: 21px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}
+/*ფუტერის შუა ნაწილი */
+.boxes {
+    display: flex;
+    width: 50%;
+    margin-left: 140px;
+    justify-content: space-around;
+}
+.box {
+    width: 30%;
+    margin-top: 37px;
+}
+.box ul {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+.box h3{
+    width: auto;
+    height: 22px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.box li{
+width: auto;
+height: 21px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+/* HERE IS STYLE OF MAINPAGE */
+/* მთავარ გვერდზე პირველი დივის სტილები */
+.firstdiv {
+    height: 500px;
+    display: flex;
+}
+.mainimage {
+    position: absolute;
+    left: 120px;
+    top: 10px;
+}
+.firstdivtext{
+    margin-top: 20px;
+    margin-left: 650px;
+}
+.firstdiv h3 {
+width: 472px;
+height: auto;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+color: #000000;
+}
+.firstdivtext p{
+    margin-top: 13px;
+width: 418px;
+height: 111px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.buttons button {
+    width: 196px;
+height: 50px;
+background: #01601B;
+border-radius: 10px;
+}
+.buttons button a{
+width: 73px;
+height: 22px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+.iconcolumn {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    margin-left: 190px;
+    margin-top: 250px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.iconcolumn img {
+    margin-bottom: 20px;
+}
+
+/* მეორე დივის სტილები */
+.seconddiv img {
+    width: 430px;
+}
+.seconddivboxes {
+    display: grid;
+    grid-template-columns: 460px 460px 460px;
+    gap: 20px;
+    justify-content: center;
+}
+.seconddivbox{
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+}
+.boxtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 430px;
+    height: 25px;
+    background: rgba(54, 125, 81, 0.55);
+    border-radius: 10px;
+    gap: 180px;
+}
+.boxtext p {
+width: 173.2px;
+height: 25.1px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 23px;
+color: #FFFFFF;
+margin-left: 20px;
+}
+.seconddiv {
+    margin-left: 71px;
+    margin-top: 220px;
+}
+.seconddiv h3 {
+width: 521px;
+height: 44px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+margin-bottom: 20px;
+}
+
+/* მესამე დივის სტილები*/
+
+.thirddiv {
+    margin-top: 168px;
+    margin-left: 71px;
+    display: flex;
+    flex-direction: column;
+}
+.thirddivboxes {
+    display: flex;
+    gap: 15px;
+}
+.thirddivbox {
+width: 650px;
+height: 660.64px;
+background: url(Bloomscape_Spring20_036-1536x1023.jpg);
+border-radius: 0px;
+background: #FFFFFF;
+box-shadow: 0px 2px 13px 1px rgba(209, 209, 209, 0.31);
+border-radius: 10px;
+
+}
+.thirddivbox h3,
+.thirddivbox p{
+    width: inherit;
+}
+.thirddivbox h3 {
+    width: 569px;
+height: 24px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+padding-top: 15px;
+padding-left: 5px;
+}
+.thirddivbox p {
+    width: 627px;
+height: 80px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 20px;
+color: #000000;
+padding-top: 52px;
+padding-left: 5px;
+}
+.thirddivtitle {
+width: 248px;
+height: 44px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+color: #000000;
+margin-bottom: 29px;
+}
+.thirddiv span {
+    width: 80px;
+height: 22px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #01601B;
+margin-left: 1250px;
+margin-top: 20px;
+cursor: pointer;
+}
+/*მეოთხე დივის სტილები */
+
+.forthdiv {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 195px;
+}
+.forthdivtext {
+    position: absolute;
+    width: 744px;
+height: 389px;
+background: #ECF1EE;
+box-shadow: 10px 23px 29px 14px rgba(215, 242, 225, 0.2);
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 150px;
+margin-left: 650px;
+}
+.forthdiv p {
+    width: 511px;
+height: 123px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+}
+.forthdiv h3 {
+    width: 381px;
+height: 44px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #000000;
+margin-left: 60px;
+}
+/*CONTACT PAGE STYLE */
+.contactpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstdivback{
+    margin-top: 194px;
+    width: 100%;
+height: 1079px;
+background-image: url(../imgs/contactpage/contactimage.png);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contactfirstdiv {
+width: 97%;
+height: 97%;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgba(1, 96, 27, 0.5);
+}
+.contactfirstdiv h3{
+    margin-top: 35px;
+width: 482px;
+height: 37px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+color: #FFFFFF;
+}
+.shortinfo {
+    margin-top: 114px;
+    width: 90%;
+    display: flex;
+}
+.shortinfodiv {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.shortinfodiv h2 {
+    margin-top: 41px;
+width: 100%;
+height: 32px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+color: #FFFFFF;
+display: flex;
+justify-content: center;
+}
+.filling label {
+width: 44px;
+height: 20px;
+font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+}
+.form input {
+width: 294px;
+height: 40px;
+background: #FFFFFF;
+border-radius: 12px;
+}
+.filling {
+    margin-top: 220px;
+    display: grid;
+    grid-template-columns: repeat(2,294px);
+    grid-template-rows: 70px 70px 210px;
+    gap: 70px;
+}
+.form:nth-child(5){
+grid-column: span 2;
+}
+.form:nth-child(5) input {
+    width: 100%;
+    height: 100%;
+}
+
+/* მაპის ნაწილი */
+.contactseconddiv {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactseconddiv h3{
+    width: 320px;
+    height: 37px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+.divformap {
+    margin-top: 55px;
+    margin-bottom: 97px;
+width: 1043px;
+height: 578.86px;
+border: 1px solid #01601B;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.divformap iframe {
+    width: 85%;
+    height: 85%;
+}
